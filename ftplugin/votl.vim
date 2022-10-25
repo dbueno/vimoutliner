@@ -631,8 +631,8 @@ map <silent> <buffer> <localleader>s :silent call SortChildren(0)<cr>
 map <silent> <buffer> <localleader>S :silent call SortChildren(1)<cr>
 
 " invoke the file explorer
-map <silent><buffer> <localleader>f :e .<cr>
-imap <silent><buffer> <localleader>f :e .<cr>
+" map <silent><buffer> <localleader>f :e .<cr>
+" imap <silent><buffer> <localleader>f :e .<cr>
 
 " Insert a fence for segmented lists.
 " this divider is used by otl2html.py to create '<hr>'
